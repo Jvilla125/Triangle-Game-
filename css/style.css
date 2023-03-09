@@ -6,6 +6,8 @@ body{
 
 #intro-page{
     display: flex;
+    /* display: none; */
+    /* ^^^ Makes the intro page disappear, will need to update using DOM  */
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
