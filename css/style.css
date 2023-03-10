@@ -16,4 +16,28 @@ body{
 
 #game-page{
     display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 100px;
+    margin: 0;
+    display: inline-block;
+}
+
+#board{
+    /* display: flex; */
+    position: absolute;
+    /* max-height: 40vw;
+    max-width: 50vw; */
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    top: 120px;
+    
+    background: #878484;
+    border: 4px solid #000000;
 }
