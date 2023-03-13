@@ -1,47 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script defer src="js/main.js"></script>
     <title>Document</title>
 </head>
+
 <body>
     <div id="intro-page">
-    <h1>Welcome to the Triangle game</h1>
-    <h2>How to Play</h2>
-    <p>The objective of the game is to ump the pegs and remove them from the game.</p>
-    <h3>Rules</h3>
-    <ol>
-        <li>You start by removing any random peg from the board.</li>
-        <li>Every jump must be over a neighboring peg.</li>
-        <li>There needs to be an empty space for the peg to land on. (Can be horizontally or diagonally)</li>
-        <li>After you jump over a peg, it is removed from the game.</li>
-    </ol>
-    <button id="start-button" type="button">Press to Start Game!</button>
-</div>
+        <h1>Welcome to the Triangle game</h1>
+        <h2>How to Play</h2>
+        <p>The objective of the game is to ump the pegs and remove them from the game.</p>
+        <h3>Rules</h3>
+        <ol>
+            <li>You start by removing any random peg from the board.</li>
+            <li>Every jump must be over a neighboring peg.</li>
+            <li>There needs to be an empty space for the peg to land on. (Can be horizontally or diagonally)</li>
+            <li>After you jump over a peg, it is removed from the game.</li>
+        </ol>
+        <button id="start-button" type="button">Press to Start Game!</button>
+    </div>
 
-<div id="game-page">
-    <button id="refresh-page" class="button"><i class="fa fa-home"></i></button>
-    <button id="restart-game" class="button">Restart Game</button>
-    <h3>Rules</h3>
-    <ol>
-        <li>You start by removing any random peg from the board.</li>
-        <li>Every jump must be over a neighboring peg.</li>
-        <li>There needs to be an empty space for the peg to land on. (Can be horizontally or diagonally)</li>
-        <li>After you jump over a peg, it is removed from the game.</li>
-    </ol>
-    <h3>Jump All But One</h3>
-    <ol>
-        <ul>Leave Only One, you're a Genius</ul>
-        <ul>Leave Two, you're Smart</ul>
-        <ul>Leave three or more, you're Dumb</ul>
-    </ol>
-<!-- <div id="board"></div> -->
-</div>
+    <div id="game-page" >
+        <button id="refresh-page" class="button"><i class="fa fa-home"></i></button>
+        <button id="restart-game" class="button">Restart Game</button>
+        <div id="board"></div>
+    </div>
+
+    <div id="left">
+        <h3 >Rules</h3>
+        <ol>
+            <li>You start by removing any random peg from the board.</li>
+            <li>Every jump must be over a neighboring peg.</li>
+            <li>There needs to be an empty space for the peg to land on. (Can be horizontally or diagonally)</li>
+            <li>After you jump over a peg, it is removed from the game.</li>
+        </ol>
+    </div>
+    <div id="right">
+        <h3>Jump All But One</h3>
+        <ol>
+            <ul>Leave Only One, you're a Genius</ul>
+            <ul>Leave Two, you're Smart</ul>
+            <ul>Leave three or more, you're Dumb</ul>
+        </ol>
+    </div>
 </body>
+
 </html>
