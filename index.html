@@ -27,29 +27,32 @@
         <button id="start-button" type="button">Press to Start Game!</button>
     </div>
 
-    <div id="game-page" >
-        <button id="refresh-page" class="button"><i class="fa fa-home"></i></button>
-        <button id="restart-game" class="button">Restart Game</button>
-        <div id="board"></div>
+    <div id="game-page">
+        <div id="buttons">
+            <button id="refresh-page" class="button"><i class="fa fa-home"></i></button>
+            <button id="restart-game" class="button">Restart Game</button>
+        </div>
+        <div id="left">
+            <h3>Rules</h3>
+            <ol>
+                <li>You start by removing any random peg from the board.</li>
+                <li>Every jump must be over a neighboring peg.</li>
+                <li>There needs to be an empty space for the peg to land on. (Can be horizontally or diagonally)</li>
+                <li>After you jump over a peg, it is removed from the game.</li>
+            </ol>
+        </div>
+        <div id="right">
+            <h3>Jump All But One</h3>
+            <ol>
+                <ul>Leave Only One, you're a Genius</ul>
+                <ul>Leave Two, you're Smart</ul>
+                <ul>Leave three or more, you're Dumb</ul>
+            </ol>
+        </div>
+        <!-- <div id="board"></div> -->
     </div>
 
-    <div id="left">
-        <h3 >Rules</h3>
-        <ol>
-            <li>You start by removing any random peg from the board.</li>
-            <li>Every jump must be over a neighboring peg.</li>
-            <li>There needs to be an empty space for the peg to land on. (Can be horizontally or diagonally)</li>
-            <li>After you jump over a peg, it is removed from the game.</li>
-        </ol>
-    </div>
-    <div id="right">
-        <h3>Jump All But One</h3>
-        <ol>
-            <ul>Leave Only One, you're a Genius</ul>
-            <ul>Leave Two, you're Smart</ul>
-            <ul>Leave three or more, you're Dumb</ul>
-        </ol>
-    </div>
+
 </body>
 
 </html>

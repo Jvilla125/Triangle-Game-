@@ -12,7 +12,7 @@ let currentColumns = [];
 // functions
 function init(){
     introPage.style.display = "none"
-    gamePage.style.display = "flex"
+    gamePage.style.display = "grid"
     rendor();
 }
 
