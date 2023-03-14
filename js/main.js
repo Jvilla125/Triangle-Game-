@@ -2,13 +2,19 @@
 const introPage = document.getElementById("intro-page");
 const startButton = document.getElementById("start-button");
 const gamePage = document.getElementById("game-page");
+const refreshPage = document.getElementById("refresh-page");
+
 // event listeners
 startButton.addEventListener('click', init);
+refreshPage.addEventListener('click', () => {
+    window.location.reload();
+})
 
 // constants
 let rows = 5
 let columns = 9;
 let currentColumns = [];
+
 // functions
 function init(){
     introPage.style.display = "none"

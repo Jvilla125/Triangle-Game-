@@ -28,15 +28,23 @@ body{
     grid-column: 1fr;
     grid-row: 3/4;
     overflow-wrap:break-word;
-    width: 420px;
+    width: 380px;
+    height: 200px;
+    font-size: 13px;
     place-self: center;
+    background-color: lightgrey;
+    border: 3px solid black;
 }
 #right{
     grid-column: 5 / 6;
     grid-row: 3/4;
-    width: 400px;
+    width: 380px;
+    height: 200px;
+    font-size: 13px;
     overflow-wrap: break-word;
     place-self: center;
+    background-color: lightgrey;
+    border: 3px solid black;
 }
 
 #board{
